@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import ASide from "./components/ASide.vue";
 import BreadCum from "./components/BreadCum.vue";
+import NavBar from "./components/NavBar.vue";
 </script>
 
 <template>
@@ -10,9 +11,9 @@ import BreadCum from "./components/BreadCum.vue";
   </header>
   <main>
     <ASide></ASide>
+    <BreadCum/>
 
     <div class="container">
-      <BreadCum></BreadCum>
       <RouterView></RouterView>
     </div>
   </main>
@@ -25,4 +26,5 @@ import BreadCum from "./components/BreadCum.vue";
   container-type: inline-size;
   container-name: container;
 }
+
 </style>

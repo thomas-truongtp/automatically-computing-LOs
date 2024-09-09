@@ -60,4 +60,9 @@ a {
     color: var(--color-border-hover);
   }
 }
+nav {
+  padding: 20px;
+  margin-left: 200px;
+  background: var(--color-background-dark);
+}
 </style>
