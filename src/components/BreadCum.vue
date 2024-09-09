@@ -52,7 +52,7 @@ a {
   color: var(--color-text);
   transition: 0.4s;
   display: block;
-  font-size: 14px;
+  text-align: center;
 }
 
 @media (hover: hover) {
